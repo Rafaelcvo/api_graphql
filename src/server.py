@@ -1,7 +1,7 @@
 from contextlib import nullcontext
 from ariadne import ObjectType, QueryType, MutationType, gql, make_executable_schema
 from ariadne.asgi import GraphQL
-from schema import main_schema
+from src.schema import main_schema
 
 # Database de Sites:
 
